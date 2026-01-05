@@ -1,7 +1,7 @@
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
-SRCS = ftlib.c philo.c valid_init.c errors.c threads_start.c
+SRCS = ftlib.c philo.c valid_init.c gs.c threads_start.c utils.c
 NAME = philo
 
 OBJS = $(SRCS:.c=.o)
